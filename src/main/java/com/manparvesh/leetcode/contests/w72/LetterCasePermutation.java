@@ -1,4 +1,4 @@
-package com.manparvesh.leetcode.w72;
+package com.manparvesh.leetcode.contests.w72;
 
 import java.util.ArrayList;
 import java.util.List;
