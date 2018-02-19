@@ -1,4 +1,4 @@
-package com.manparvesh.leetcode.practice.cache;
+package com.manparvesh.leetcode.practice.design;
 
 import org.junit.Test;
 

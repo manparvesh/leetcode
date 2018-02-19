@@ -1,7 +1,10 @@
-package com.manparvesh.leetcode.practice.cache;
+package com.manparvesh.leetcode.practice.design;
 
 import java.util.HashMap;
 
+/**
+ * https://leetcode.com/problems/lru-cache/description/
+ */
 public class LRUCache {
     private int capacity;
     private HashMap<Integer, DLLNode> map = new HashMap<>();
@@ -62,7 +65,7 @@ public class LRUCache {
     /**
      * set the position of an existing node
      * insert a new node if the value is not present
-     * if the cache has reached its limit, pop the oldest node
+     * if the design has reached its limit, pop the oldest node
      *
      * @param key   key
      * @param value value
